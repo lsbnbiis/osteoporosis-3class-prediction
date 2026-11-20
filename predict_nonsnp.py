@@ -47,8 +47,8 @@ def parse_args() -> argparse.Namespace:
         description="讀取 CSV，正規化數值特徵，並預測骨質狀態。"
     )
     parser.add_argument(
-        "input",
-        nargs="?",
+        "-i",
+        "--input",
         type=Path,
         default=BASE_DIR / "nonsnp_example.csv",
         help="輸入 CSV（預設：nonsnp_example.csv）",

@@ -51,8 +51,8 @@ def parse_args() -> argparse.Namespace:
         description="從 SNP 基因型計算 TPMI PRS，並以 SVM 預測骨質狀態。"
     )
     parser.add_argument(
-        "input",
-        nargs="?",
+        "-i",
+        "--input",
         type=Path,
         default=BASE_DIR / "snp_example.csv",
         help="輸入 CSV（預設：snp_example.csv）",
