@@ -1,0 +1,5 @@
+rs_id	effect_size	ALT_allele(A1)	ref_allele(A2)	source
+rs1871859	0.070	T	C	TPMI_Osteoporosis_osteopenia and pathological fracture
+rs2198891	0.14	A	C	TPMI_Osteoporosis_osteopenia and pathological fracture
+rs35645182	0.066	GA	G	TPMI_Osteoporosis_osteopenia and pathological fracture
+rs78115320	0.096	T	C	TPMI_Osteoporosis_osteopenia and pathological fracture
